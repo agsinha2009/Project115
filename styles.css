@@ -1,0 +1,26 @@
+body{
+    background-image: url(360_F_220421089_eq8ObXyplvSWxOQFX7KGSU8wWBWalNzG.jpg);
+}
+h1{
+    text-decoration: underline;
+}
+.btn-success:hover{
+   background-color: red;
+}
+canvas{
+    border-style: dotted;
+    margin-top: 100px;
+    animation-name: canvas;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes canvas{
+    from{
+        box-shadow: 1px 1px 20px blue;
+    }
+    to{
+        box-shadow: 1px 3px 20px red;
+    }
+
+    
+}
